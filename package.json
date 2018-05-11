@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "name": "JSholat",
+  "productName": "Jadwal Sholat",
+  "description": "My prime Vue project",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "poi",
+    "build": "poi build",
+    "report": "poi build --bundle-report",
+    "serve": "serve dist --single",
+    "start": "micro"
+  },
+  "author": {
+    "name": "pravodev",
+    "email": "pravodev@gmail.com"
+  },
+  "dependencies": {
+    "micro": "latest",
+    "bootstrap": "^4.1.1",
+    "fontawesome": "^4.7.2",
+    "hijri": "^0.5.0",
+    "jquery": "^3.3.1",
+    "normalize.css": "^7.0.0",
+    "offline-plugin": "^4.8.0",
+    "open-iconic": "^1.1.1",
+    "popper.js": "^1.14.3",
+    "prayer-times": "^0.1.0",
+    "promise-polyfill": "^6.0.2",
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.10",
+    "node-sass": "^4.9.0",
+    "poi": "^9.0.0",
+    "poi-preset-bundle-report": "^2.0.0",
+    "poi-preset-offline": "^9.0.0",
+    "sass-loader": "^7.0.1",
+    "serve": "^6.5.3"
+  }
+}
