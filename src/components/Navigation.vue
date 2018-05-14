@@ -2,7 +2,7 @@
     <div class="navigation">
         <h2 class="navigation__title">
             Hari ini
-            <div class="float-right">{{ hijriDate }}</div>
+            <div class="float-right">{{ getHijrDate() }}</div>
         </h2>
         <div class="navigation__content pray__today">
             <table class="table table-striped table-sm">
@@ -47,13 +47,18 @@
 
 <script>
 import hijri from 'hijri';
-const hijriToday = hijri.convert(new Date, 0);
 
 export default {
-    props: ['today'],
+    props: ['today','date'],
     data: () => ({
-        hijriDate: hijriToday.year + ' - ' + hijriToday.dayOfMonth + ' -  ' + hijriToday.monthText        
+        mantap: 'asdasdasdasdas'
     }),
+    methods: {
+        getHijrDate(){
+            const hijriToday = hijri.convert(this.date, 0)
+            return hijriToday.year + ' - ' + hijriToday.dayOfMonth + ' -  ' + hijriToday.monthText    
+        }    
+    },
     created(){
         (function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];

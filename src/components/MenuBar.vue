@@ -8,13 +8,13 @@
             </div>
             <div class="sidebar__menu">
                 <div class="menu">
-                    Home
+                    <router-link to="/">Home</router-link>
                 </div>
                 <div class="menu">
-                    About
+                    <router-link to="/about">About</router-link>
                 </div>
                 <div class="menu">
-                    Contact
+                    <router-link to="/contact">Contact</router-link>
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@ export default {
     background: #f9f9f9;
     left: 0;
     top: 0;
-    // z-index: 1;
+    z-index: 1;
     width: 250px;
     height: 100vh;
     box-shadow: 0 0 5px #00000052;

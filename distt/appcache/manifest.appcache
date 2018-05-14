@@ -1,0 +1,37 @@
+CACHE MANIFEST
+#ver:5/14/2018, 9:03:02 PM
+#plugin:4.9.1
+
+CACHE:
+/assets/images/background.ed825b28.jpg
+/assets/fonts/open-iconic.47151e87.eot
+/assets/fonts/open-iconic.3cf97837.woff
+/assets/fonts/open-iconic.93cc7aa6.ttf
+/assets/fonts/open-iconic.527eff64.otf
+/assets/images/open-iconic.eca2c267.svg
+/assets/images/sholat_fast_serius.e872bc75.jpg
+/assets/images/ramadhan_cute.a958ee31.jpg
+/client.e9f58f83.js
+/vendor.5c72188e.js
+/manifest.95292176.js
+/client.69c24c79.css
+/vendor.8a11ff12.css
+/favicon.ico
+/icons/android-chrome-192x192.png
+/icons/icon-144x144.png
+/icons/icon-128x128.png
+/icons/android-chrome-512x512.png
+/icons/icon-512x512.png
+/icons/icon-72x72.png
+/icons/icon-96x96.png
+/manifest.json
+/icons/icon-152x152.png
+/icons/icon-384x384.png
+/icons/icon-192x192.png
+/
+
+NETWORK:
+*
+
+FALLBACK:
+/ /

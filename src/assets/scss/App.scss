@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two|Archivo+Narrow|Cairo');
+
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0; 
+	background: #f8f8f8;
+    font-family: 'Cairo', sans-serif;
+}
+
+header.header {
+	color: white;
+	font-size: 84px; 
+	position: relative;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+header.header .header__background {
+    background-image: url("../images/background.jpg");
+    background-color: #7e9c7f;
+    background-blend-mode: multiply;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+section.content {
+    position: relative;
+}
+.content__title {
+    position: absolute;
+    left: 10%;
+    width: calc(100% - 20%);
+    z-index: 1;
+    top: -40px;
+    display: flex;
+    text-align: center;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.content__body {
+    /* margin-top: 50px; */
+    padding: 40px;
+}
+.header__background:after {
+    content: " ";
+    display: block;
+    background: #f8f8f8;
+    height: 40px;
+    width: calc(100% - 20%);
+    position: absolute;
+    bottom: 0;
+    border-radius: 10px 10px 0 0;
+}
+.img--parallax {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav.topnav {
+    display: flex;
+    align-items: center;
+    background: #3e3c42;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    height: 50px;
+    text-align: center;
+}
+.logo {
+    width: 200px;
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.top-title, .title {
+    text-align: center;
+}
+.top-title {
+    flex:1;
+    font-size: 23px;
+}
+.title {
+    width: 35vw;    
+    font-size: 0.3em;
+    /* font-family: '' */
+}
+
+@media only screen and (max-width: 670px) {
+    .content__title {
+        font-size: 19px;
+    }
+    .title {
+        width: 70%
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .content__title {
+        font-size: 16px;
+    }
+    .top-title {
+        font-size: 14px;
+    }
+}
