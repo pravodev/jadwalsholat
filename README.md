@@ -7,11 +7,15 @@
 [imgpwa1]: https://raw.githubusercontent.com/pravodev/jadwalsholat/master/preview_pwa1.jpg "Home"
 [imgpwa2]: https://raw.githubusercontent.com/pravodev/jadwalsholat/master/preview_pwa_2.jpg "Sidebar"
 
-##PWA Installed
-- Splash Screen
+Demo:  
+- https://jadwalsholat.bitballoon.com  
+- http://jadwalsholat.santrimandiri.org  
+
+## PWA Installed  
+- Splash Screen  
 ![splash screen][imgsplashscreen]
 
-- App shell
+- App shell  
 ![app-shell][imgpwa1]
-
+  
 ![app-shell][imgpwa2]
